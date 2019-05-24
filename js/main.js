@@ -14,7 +14,7 @@ let changeColor = function () {
 }
 
 let changeSay = function () {
-  let julienList = ["C'est gagné!", "Oui oui oui oui!", "C'est la mer noire", "C'est parti", "Oui Jacqueline", "Ouais ouais ouais ouais"]
+  let julienList = ["C'est gagné!", "Oui oui oui oui!", "C'est la mer noire", "C'est parti!", "Oui Jacqueline", "Ouais ouais ouais ouais!"]
   let rdm2 = Math.floor(Math.random()*6);
 
   let whatJulienSays = julienList[rdm2];
